@@ -11,7 +11,8 @@
     <title>hello world</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg text-bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">hello world</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,12 +43,13 @@
         </div>
       </div>
     </nav>
+    </nav>
     <div class="container py-4">
-      <div class="p-5 mb-4 text-bg-dark rounded-3">
+      <div class="p-5 mb-4 text-bg-dark rounded-4">
         <div class="container-fluid py-5">
           <h1 class="display-5 fw-bold">CLOCK</h1>
-          <p class="col-md-8 fs-4">current time and date is : </p>
-          <p id="content_p" class="col-md-8 fs-1"></p>
+          <p class="col-md-8 fs-4">current time and date is : <br><span id="content_p"></span></p>
+          
           <button class="btn btn-primary btn-lg" type="button">button</button>
         </div>
       </div>
